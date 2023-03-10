@@ -1,9 +1,16 @@
 body {
   font-family: Bai Jamjuree;
+  color: white;
 }
 
 .navbar {
   background-image: linear-gradient(to bottom right, #a3b7b1, #396452);
+}
+
+.text_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fondo {
@@ -26,7 +33,6 @@ body {
   position: relative;
   height: 0;
 }
-
 .map-container iframe {
   left: 0;
   top: 0;
