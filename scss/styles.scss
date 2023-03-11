@@ -1,11 +1,17 @@
-body{
-    font-family:Bai Jamjuree;
-}
+@import "tipografia";
+@import "animaciones";
 
 .navbar{
     background-image: linear-gradient(to bottom right, #a3b7b1, #396452);
 }
 
+.text_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//--------------------INDEX--------------------//
 .fondo{
     background-image: url('../assets/Imagenes/ELEGEND-Render_2108-5.jpg');
     height: 100vh;
@@ -20,25 +26,28 @@ body{
     background-repeat: no-repeat;
 }
 
+//--------------------SEDE--------------------//
 .map-container{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
+
+    iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
 }
 
-.map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
-.full-height-row {
+//--------------------NOSOTROS--------------------//
+.full-height-row {   
     min-height: 90vh;
   }
 
+//--------------------EL1-SPORT--------------------//
 .portion-height-row {
    min-height: 30vh;
 }
@@ -48,6 +57,7 @@ body{
     background-size: cover;
 }
 
+//--------------------CONTACTO--------------------//
 .form_size{
     max-width: 400px;
 }

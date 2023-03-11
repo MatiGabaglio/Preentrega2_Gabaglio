@@ -1,0 +1,76 @@
+body {
+  font-family: Bai Jamjuree;
+  color: white;
+}
+
+@keyframes carga_imagenes {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.ani_load {
+  animation-name: carga_imagenes;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom right, #a3b7b1, #396452);
+}
+
+.text_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo {
+  background-image: url("../assets/Imagenes/ELEGEND-Render_2108-5.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.full-height-row {
+  min-height: 90vh;
+}
+
+.portion-height-row {
+  min-height: 30vh;
+}
+
+.bgcolor {
+  background-color: black;
+  background-size: cover;
+}
+
+.form_size {
+  max-width: 400px;
+}
+
+/*# sourceMappingURL=styles.css.map */
